@@ -49,13 +49,14 @@ Q7: What is the more pythonic way to use getters and setters?
   b) Generators.
   c) Iterators
   d) @property
+  Ans: d) @property
 
 Q8. In Python, there is a built-in function property() that returns a property object. The property object has which of the methods?
   a) getter() and setter()
   b) getter(), setter() and delete()
   c) getter() and delete()
   d) setter() and delete()
-  Ans: 
+  Ans: a) getter() and setter()
   
 Q9. Which of the following statement is true? 
   a) You cannot chain multiple decorators in Python.
@@ -74,7 +75,7 @@ Q10. For the following codes, which of the following statements is true?
   b) Both printHello() and the reference to the same object.
   c) Print Hello() and the reference to different objects.
   d) Syntax error! You cannot assign function
-Ans: 
+Ans: a) print Hello() is a function, and a is a variable. None of them are objects.
 
 Q11. What is the output of the program? 
 
@@ -146,4 +147,10 @@ Q16. Which of the following code used the inheritance feature?
   a) Class Foo: 
       Pass
   b) class Foo(object):
-   pass 3. class Hoo(object): pass c) 1. class Foo: 2. pass 3. class Hoo(Foo): pass
+   pass 3. class Hoo(object): pass 
+   c) 1. class Foo: 2. pass 3. class Hoo(Foo): pass
+   Ans: c) class Foo:
+             pass
+           class Hoo(Foo):
+             pass
+   
