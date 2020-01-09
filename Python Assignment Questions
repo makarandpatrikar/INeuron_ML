@@ -154,3 +154,127 @@ Q16. Which of the following code used the inheritance feature?
            class Hoo(Foo):
              pass
    
+Q17. If you a class is derived from two different classes, it’s called _______
+Ans: multiple Inheritence
+
+Q18. Which of the following statements is true?
+Ans: 
+
+Q19. What is the output of the code ?
+class point:
+    def __init__(self,x=0,y=0):
+        self.x = x
+        self.y = y
+    def __sub__(self,other):
+        x=self.x + other.x
+        y=self.y + other.y
+        return point(x,y)
+p1=point(3,4)
+p2=point(1,2)
+result = p1-p2
+print(result.x,result.y)
+Ans: 4 6
+
+Q20. Opening a file in ‘a’ mode ?
+Ans: opens the file for appending, at the end of the file
+
+Q21. What does the following code do?
+f = open("test.txt")
+Ans: opens test.txt file for reading only
+
+Q22.Which of the codes closes files automatically if an exception occurs?
+Ans: 
+
+Q23. Q23. For the following code, 
+f = open('test.txt', 'r', encoding = 'utf-8') 
+f.read()
+Ans: 
+
+Q24. What does the following code do? 
+os.listdir()
+Ans: prints all directories and files inside the given directory
+
+Q25. Which of the following is correct ?
+a) An exception is an error that occurs in the runtime.
+b) A syntax error is also an exception.
+c) An exception is used to exclude a block of code in python.
+d) All of the above.
+Ans: d) All of the above
+
+Q26. What will happen if we try to open the file that doesn’t exist?
+Ans: c) An exception is raised.
+
+Q27. What is the output of the code?
+number = 5.0
+try:
+    r = 10/number
+    print(r)
+except:
+    print("oops! error occured")
+Ans: 2.0
+
+Q28. What does the following code do?
+try:
+    pass
+except(ZeroDivisionError):
+    print("two")
+    
+    Ans: Prints two if any exception is occured doesen't matters what is the exception
+    
+  Q29. Which of the following statement is true?
+  Ans:
+  
+  Q30. Which of the following statement is true?
+  Ans:
+  
+  Q31. What is the output of the code ?
+  def printline(text):
+    print(text,"is awesome")
+printline("Python")
+Ans: Python is awesome.
+
+Q32. If the return statement is not used inside the function, the function will return :
+Ans: Error ! function must have return statement.
+
+Q33. What is the output of the code?
+ef person(*name):
+    print("Hello",name)
+person('Frodo','sauron')
+Ans: Hello('Frodo','sauron')
+
+Q34. What is the recursion function?
+Ans: recursion function is call itself.
+
+Q35. What is the output of the code?
+result = lambda x: x * x 
+print(result(5))
+Ans: 25
+
+Q36. What is the output of the code?
+ef Foo(x):
+    if (x==1):
+        return 1
+    else:
+        return x+Foo(x-1)
+print(Foo(4))
+Ans: 10
+
+Q37. Suppose you need to print pi constant defined in the math module. Which of the following code can do this task?
+Ans: from math import pi
+print(pi)
+
+Q38. Which operator is used in Python to import modules from the packages?
+Ans: * operator
+
+Q39. What is the output of the code?
+number = [1,3,6]
+new = tuple(map(lambda x:x, number))
+print(new)
+Ans:(1,3,6)
+
+Q40. what is the output of the code?
+if None:
+   print("Hello")
+ Ans: nothing will be printed.
+ 
+ 
