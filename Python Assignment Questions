@@ -277,4 +277,81 @@ if None:
    print("Hello")
  Ans: nothing will be printed.
  
+ Q41. The if-elif-else executes only one block of code among several blocks.
+ Ans: True
  
+ Q42. what is the output of the code?
+ for i in [1,0]:
+    print(i+1)
+    Ans: 2
+         1
+   
+ Q43. In the Python, for and while loop can have the optional else statement?
+ Ans: Both statements having optional else statement.
+ 
+ Q44. what is the output of the code?
+ i=0
+sum=0
+while i<=4:
+    sum+=i
+    i=i+1
+print(sum)
+Ans: 10
+
+Q45. what is the output of the code?
+while 4==4:
+    print('4')
+Ans: 4 is printed infinitely until the prgorams ends.
+
+Q46. Is it better to use the for loop instead of while if we are iterating through a sequence?
+Ans: Yes, for loop is more pythonic choice.
+
+Q47. which of  the  following statement is true?
+Ans:
+
+Q48. what is the output of the code?
+for char in 'PYTHONSTRING':
+    if char == '':
+        break
+    print(char,end='')
+    if char=='o':
+        continue
+    Ans: PYTHONSTRING
+    
+    
+Q49. Which of the statement is true about the “pass”
+statement?
+Ans:
+
+Q50. In regards to separated value files such as .csv and .tsv, what is the delimiter?
+Ans: Any character such as the comma (,) or tab (\t) that is used to separate the column data
+
+Q51. In separated value files such as .csv and .tsv, what does the first row in the file typically contain?
+Ans: The columns name of the data.
+
+Q52. Assume you have a file object my_data, which has properly opened a separated value file that uses the tab character (\t) as the delimiter. What is the proper way to open the file using the Python CSV module and assign it to the variable csv_reader?
+Ans: csv.reader(my_data, delimiter='\t')
+
+Q53. When iterating over an object returned from csv.reader(), what is returned with each iteration?
+Ans: 
+Q54.
+ans:
+
+Q55. Which is the correct way to open the CSV file hrdata.csv for reading using the pandas package? Assume that the pandas package has already been imported.
+Ans: pandas.read_csv('hrdata.csv')
+
+Q56. By default, pandas uses 0-based indices for indexing rows. Which is the correct way to import the CSV file hrdata.csv for reading and using the 'Name' column as the index row instead?
+Ans: pandas.read_csv('hrdata.csv', index_col='Name')
+
+Q57. Given the file dog_breeds.txt, which of the following is the correct way to open the file for reading as a text file? Select all that apply.
+Ans: open('dog_breeds.txt', 'r')
+open('dog_breeds.txt')
+
+Q58. Given the following directory structure?
+Ans: 'animals:/feline'
+
+Q59. Given the file jack_russell.png, which of the following is the correct way to open the file for reading as a buffered binary file? Select all that apply.
+Ans: open('jack_russell.png', 'rb')
+
+Q60. Using the same directory structure as before:
+Ans: 'feline:/bear.gif'
