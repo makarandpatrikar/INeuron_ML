@@ -354,4 +354,4 @@ Q59. Given the file jack_russell.png, which of the following is the correct way 
 Ans: open('jack_russell.png', 'rb')
 
 Q60. Using the same directory structure as before:
-Ans: 'feline:/bear.gif'
+Ans: 'animals:/feline/bear.gif'
